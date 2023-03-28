@@ -34,7 +34,7 @@ export const AppNavbar: FC = () => {
         <>
             <Header className='space-between'>
                 <div>
-                    <img className='logo' src={logo} alt="" />
+                <img className='logo' src={logo} alt="" onClick={() => window.location.href = '/'} />
                 </div>
                 <div style={{ width: "100%" }}>
                     <Menu mode="horizontal"  inlineCollapsed={collapsed}>
