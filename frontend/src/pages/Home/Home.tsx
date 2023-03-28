@@ -8,7 +8,9 @@ export const Home = () => {
 
     return (
         <div>
-            <img className="Header-image"src='./header_img.jpg' alt="error" />
+            <div className='header-container'>
+                <img className="Header-image" src='./header_img.jpg' alt="error" />
+                </div>
             <hr />
             <h1>Vad kan vi hjälpa dig med?</h1>
             <hr />

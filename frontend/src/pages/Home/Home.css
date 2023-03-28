@@ -7,7 +7,6 @@
   padding: 0;
 }
 h1{
-  text-size-adjust: ;
   font-family: Tiempos Headline, serif;
 }
 .box {
@@ -53,12 +52,24 @@ h1{
   font-size: 16px;
 }
 
-.Header-image{
+.header-container{
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.header-img{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+      ),
 }
+    
+    
 .site-layout-content {
   min-height: 280px;
   padding: 24px;
