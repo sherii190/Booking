@@ -8,6 +8,7 @@ export const Home = () => {
 
     return (
         <div>
+            <img src='./heder_img.jpg' alt="error" />
             <div className="boxes-container">
                 <div className="box">
                     <div className="box-image" style={{ backgroundImage: 'url(/cleaner-floor-polish-washer-wash.jpg)' }}></div>
