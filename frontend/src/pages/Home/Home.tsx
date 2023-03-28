@@ -8,9 +8,10 @@ export const Home = () => {
 
     return (
         <div>
-            <div className='header-container'>
-                <img className="Header-image" src='./header_img.jpg' alt="error" />
-                </div>
+            <div className="header-container">
+        
+        <div className="header-text">Your Header Text</div>
+      </div>
             <hr />
             <h1>Vad kan vi hjälpa dig med?</h1>
             <hr />
