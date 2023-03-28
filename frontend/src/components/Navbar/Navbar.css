@@ -9,6 +9,19 @@
 .ant-menu-overflow{
     background-color: #eae8e1;
 }
-.ant-menu-title-content{
+.ant-menu-title-content::after{
     color: black;
 }
+.ant-btn{
+    background-color: grey;
+}
+/*
+.css-dev-only-do-not-override-mxhywb,
+.ant-menu-light.ant-menu-horizontal ,
+.ant-menu-item-selected::after,
+.css-dev-only-do-not-override-mxhywb
+.ant-menu-light.ant-menu-horizontal ,
+.ant-menu-submenu-selected::after {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}*/
