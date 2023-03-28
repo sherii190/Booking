@@ -5,6 +5,10 @@
     margin-right: 30px;
     display: inline-block;
 }
+span{
+    padding: 20px;
+    font-family: Tiempos Headline, serif;
+}
 .ant-layout-header,
 .ant-menu-overflow{
     background-color: #eae8e1;

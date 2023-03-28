@@ -10,7 +10,7 @@ export const Home = () => {
         <div>
             <img className="Header-image"src='./header_img.jpg' alt="error" />
             <hr />
-            <h2>Vad kan vi hjälpa dig med?</h2>
+            <h1>Vad kan vi hjälpa dig med?</h1>
             <hr />
             <div className="boxes-container">
                 <div className="box">
