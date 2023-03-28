@@ -37,7 +37,7 @@ export const AppNavbar: FC = () => {
                     <img className='logo' src={logo} alt="" />
                 </div>
                 <div style={{ width: "100%" }}>
-                    <Menu mode="horizontal" theme="dark" inlineCollapsed={collapsed}>
+                    <Menu mode="horizontal"  inlineCollapsed={collapsed}>
                         <Menu.Item key="1" onClick={e => navigate("/")}>Home</Menu.Item>
 
                         {user &&
