@@ -1,68 +1,31 @@
-
-
 .App {
   text-align: center;
 }
-.login-link{
-  text-decoration: none;
-  color: black;
-  
-}.py-5 {
-  padding: 0;
-}
-.fa-user::before {
-  content: "\f007";
-  color: black;
-}
-.container.d-flex {
-  justify-content: space-between; 
-}
-.text-center{
-  padding-top: 40px;
-}
-.main{
-  padding: 0;
-}
-.navbar-dark{
-  background-color: #eae8e1;
-}
-.container {
-  position: relative;
-  text-align: center;
-  color: black;
-  object-fit: cover;
 
-}
-.jumbotron-heading{
-  transform: translate(-0%, -100%);
-    color: black;
-    font-family: Tiempos Headline, serif;
-    font-size: 30px;
-    text-align: center;
-}
-.äranden{
-  padding-bottom: 40px;
-}
-h1{
-  font-family: Tiempos Headline, serif;
-}
-.btn-primary{
-  color: #ffff;
-}
-a:hover{
-  color:white ;
-}
-
-.bigImg{
-  height: 300px;
-  width: 300px;
-}
-.fa-light{
-  color: #ffff;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -73,4 +36,3 @@ a:hover{
     transform: rotate(360deg);
   }
 }
-

@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-
+import { Home } from './pages/Home/Home';
 import AppLayout from './components/Layout/Layout';
 import { LoginPage } from './pages/Login';
 import { RegisterPage } from './pages/Register';
 import { BookingPage } from './pages/Booking/BookingPage';
 import { ReservationsPage } from './pages/Reservations/ReservationsPage';
-import Bootstrap from './pages/Home/Bootstrap';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
         path="/"
         element={
           <AppLayout>
-            <Bootstrap />
+            <Home />
           </AppLayout>
         }
       />

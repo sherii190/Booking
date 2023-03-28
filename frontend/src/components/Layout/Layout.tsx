@@ -30,7 +30,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children, isProtected }) => {
                     {children}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>©2023 Created by JETSKIIGRUPPEN AB</Footer>
+            <Footer style={{ textAlign: 'center' }}>©2023 Created by --</Footer>
         </Layout>
     );
 };

@@ -1,0 +1,52 @@
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.7s ease-in-out; /* add a transition effect to smooth the zoom */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* zoom in on hover by scaling the box */
+  }
+  
+  .box-image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box-text {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .box-text h1 {
+    margin-top: 0;
+  }
+  
+  .box-text h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  
