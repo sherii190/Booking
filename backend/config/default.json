@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "vidly_jwtPrivateKey=123123",
+  "db": "mongodb://127.0.0.1:27017/BookingDB"
+}

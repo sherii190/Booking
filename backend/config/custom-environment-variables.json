@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "vidly_jwtPrivateKey=123123",
+  "db":"vidly_db"
+}
