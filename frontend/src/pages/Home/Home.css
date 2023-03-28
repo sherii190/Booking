@@ -51,7 +51,9 @@
   }
 
   .Header-image{
-height: auto;
-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
   }
   
