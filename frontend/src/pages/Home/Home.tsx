@@ -9,6 +9,9 @@ export const Home = () => {
     return (
         <div>
             <img className="Header-image"src='./header_img.jpg' alt="error" />
+            <hr />
+            <h2>Vad kan vi hjälpa dig med?</h2>
+            <hr />
             <div className="boxes-container">
                 <div className="box">
                     <div className="box-image" style={{ backgroundImage: 'url(/cleaner-floor-polish-washer-wash.jpg)' }}></div>
