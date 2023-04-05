@@ -9,11 +9,14 @@ export const Home = () => {
     return (
         <div>
             <div className="header-container">
-        
-        <div className="header-text">Your Header Text</div>
+       
+        <div className="header-text">StädaFint AB </div>
+        <p className="header-paragraph">"Låt proffisionella göra det smutsiga arbetet så du kan njuta av en stressfri vardag"</p>
       </div>
             <hr />
-            <h1>Vad kan vi hjälpa dig med?</h1>
+            <div className='rubrik'>
+                <h1>Vad kan vi hjälpa dig med?</h1>
+            </div>
             <hr />
             <div className="boxes-container">
                 <div className="box">

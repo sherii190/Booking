@@ -8,6 +8,15 @@
 }
 h1{
   font-family: Tiempos Headline, serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.rubrik{
+  font-size: 1.5rem;
+}
+element.style {
+  font-size: 2rem;
 }
 .box {
   display: flex;
@@ -88,9 +97,21 @@ h1{
   transform: translate(-50%, -50%); /* Center the text using translate */
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
-  font-family: Arial, sans-serif;
+  font-family: Tiempos Headline, serif;
+}
+
+.header-paragraph {
+  position: absolute;
+  top: 65%; /* Position the text in the center of the header container */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text using translate */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 2rem; /* Set font size to 1.2rem */
+  font-weight: bold;
+  font-family: Tiempos Headline, serif;
 }
     
 .site-layout-content {
